@@ -1,7 +1,7 @@
 //var ws = new WebSocket("ws://10.55.10.147:5556");
 //ws.binaryType = "blob";
 
-socket = new WebSocket("ws://10.55.10.147:5556");
+socket = new WebSocket("ws://poisn.xyz:5556");
 socket.binaryType = "blob";
 
 // Log socket opening and closing
