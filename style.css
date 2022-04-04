@@ -1,0 +1,192 @@
+
+@font-face {
+    font-family: dart;
+    src: url(dart.ttf);
+}
+
+body {
+    /*background: linear-gradient(150deg, #111010, #590810)*/
+    background-color: #242323b7;
+}
+
+h1 {
+    padding-left: 25%;
+    font-family: dart;
+    font-size: 250%;
+    color: linear-gradient(150deg, #44447f, #ab2020);
+}
+
+/*flex*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 80vh;
+}
+
+.editor {
+    flex: 0 1 45%;
+}
+
+.feed {
+    flex: 0 1 45%;
+    background-color: #4a4a55;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+}
+
+.users {
+    flex: 0 1 10%;
+}
+
+/*editor*/
+.edit {
+    
+    display: flex;
+    flex-flow: row wrap;
+    background: grey;
+    min-height: 80vh;
+    max-height: 80vh;
+
+}
+
+.edit .num {
+    background: #11101f;
+    color: grey;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+}
+
+.edit .num span {
+    color: pink;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.edit textarea {
+    background: #1a1930;
+    flex: 1;
+    border: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    color: white;
+    font-size: 14pt;
+    outline: none;
+    min-height: 80vh;
+    max-height: 80vh;
+}
+
+/*output*/
+.output {
+    flex: 0 1 95%;
+    background-color: rebeccapurple;
+}
+
+.input {
+    flex: 0 1 5%;
+    background-color: green;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textbox {
+    width: 90%;
+    height: 100%;
+}
+
+.sendbtn {
+    width: 10%;
+    background-color: black;
+    padding: 0px;
+    border: 0px;
+    height: 110%;
+}
+
+
+.btnsend {
+    width: 100%;
+    background-color: black;
+}
+
+/*
+img {
+    border: 0px;
+}
+*/
+/*
+.textbox .sendbtn {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+*/
+
+/*header*/
+.header {
+    display: flex;
+}
+
+.one {
+    flex: 0 1 50%;
+}
+
+.two {
+    flex: 0 1 50%;
+}
+
+/*drop down*/
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    background-color: inherit;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.dropcont {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    z-index: 1;
+    text-align: left;
+    color: lightblue;
+}
+
+.dropcont a {
+    float: none;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropcont {
+    display: block;
+}
+
+.dropbtn {
+    height: 50px;   
+}
+
+.login {
+    text-align: center;
+}
